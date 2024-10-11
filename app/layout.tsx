@@ -37,9 +37,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ar" dir="rtl">
-      <body className={`${mirzaFont.className} font-[Mirza] antialiased`}>
-        {children}
-      </body>
+      <body className={`${mirzaFont.className} antialiased`}>{children}</body>
     </html>
   );
 }
