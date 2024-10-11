@@ -23,7 +23,7 @@ function Navbar() {
     <>
       <header
         dir="ltr"
-        className="bg-white/95 py-1 fixed top-0 left-0 w-full flex justify-center z-40"
+        className="bg-white/95 py-1 shadow-lg shadow-neutral-100 fixed top-0 left-0 w-full flex justify-center z-40"
       >
         <nav className="w-full  rounded-2xl p-2 md:w-11/12 flex justify-between items-center">
           <div className="md:w-40 w-32 md:h-16 h-12 relative">
